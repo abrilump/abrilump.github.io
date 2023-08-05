@@ -1,0 +1,121 @@
+* {
+    background-color: rgb(60, 59, 97);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(175, 174, 187);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(175, 174, 187);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: whitesmoke;
+}
+
+.presentation {
+    padding: 100px 300px;
+    margin-bottom: 200px; 
+}
+
+.presentation h1 {
+    font-size: 60px;
+}
+
+#aboutme {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.logo-ceibaljap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    
+}
+
+.container h2 {
+    margin: 0;
+    padding: 10px;
+  }
+
+.tech-list {
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.tech-list li {
+    margin-bottom: 20px;
+}
+
+.image-text img {
+    width: 600px;
+}
+
+.contact-form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 5px 5px rgb(175, 174, 187);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+input, textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(175, 174, 187);
+    border-radius: 4px;
+  }
+  
+input[type="submit"] {
+    background-color: rgb(175, 174, 187);
+    color: black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: whitesmoke
+}
